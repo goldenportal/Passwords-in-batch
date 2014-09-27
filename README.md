@@ -1,8 +1,3 @@
-Batch-Coding
-============
+Passwords in batch
 
-Simple tutorials with batch
-
-ReadMe File
-
-Everything in this projects will not destroy your system , and they are just BASICS BASICS BASICS!
+Using passwords in batch.
