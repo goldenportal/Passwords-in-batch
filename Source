@@ -1,0 +1,175 @@
+Passwords in batch
+
+Using passwords in batch.
+
+
+Source code -
+
+@ Echo off
+color C
+Title Welcome Back
+set tries=6
+:top
+cls
+set /a tries=%tries% -1
+if %tries%==0 (
+goto penalty
+)
+Echo You have %tries% attempts left.
+Echo Please enter your password to 
+
+proceed
+set /p password=
+if %password%==password (
+echo Welcome Your Name
+ping localhost -n 5 >nul
+cls
+Echo CONNECTED!
+pause
+cls
+) else (
+goto top
+)
+goto top
+:penalty
+echo A
+ping localhost -n .15 >nul
+cls
+echo Ah
+ping localhost -n .15 >nul
+cls
+echo Ah A
+ping localhost -n .15 >nul
+cls
+echo Ah Ah
+ping localhost -n .15 >nul
+cls
+echo Ah Ah A
+ping localhost -n .15 >nul
+cls
+echo Ah Ah Ah
+ping localhost -n .15 >nul
+cls
+echo Ah Ah Ah,
+ping localhost -n .15 >nul
+cls
+echo Ah Ah Ah, Y
+ping localhost -n .15 >nul
+cls
+echo Ah Ah Ah, Yo
+ping localhost -n .15 >nul
+cls
+echo Ah Ah Ah, You
+ping localhost -n .15 >nul
+cls
+echo Ah Ah Ah, You D
+ping localhost -n .15 >nul
+cls
+echo Ah Ah Ah, You Di
+ping localhost -n .15 >nul
+cls
+echo Ah Ah Ah, You Did
+ping localhost -n .15 >nul
+cls
+echo Ah Ah Ah, You Didn
+ping localhost -n .15 >nul
+cls
+echo Ah Ah Ah, You Didn'
+ping localhost -n .15 >nul
+cls
+echo Ah Ah Ah, You Didn't
+ping localhost -n .15 >nul
+cls
+echo Ah Ah Ah, You Didn't S
+ping localhost -n .15 >nul
+cls
+echo Ah Ah Ah, You Didn't Sa
+ping localhost -n .15 >nul
+cls
+echo Ah Ah Ah, You Didn't Say
+ping localhost -n .15 >nul
+cls
+echo Ah Ah Ah, You Didn't Say T
+ping localhost -n .15 >nul
+cls
+echo Ah Ah Ah, You Didn't Say Th
+ping localhost -n .15 >nul
+cls
+echo Ah Ah Ah, You Didn't Say The
+ping localhost -n .15 >nul
+cls
+echo Ah Ah Ah, You Didn't Say The M
+ping localhost -n .15 >nul
+cls
+echo Ah Ah Ah, You Didn't Say The Ma
+ping localhost -n .15 >nul
+cls
+echo Ah Ah Ah, You Didn't Say The Mag
+ping localhost -n .15 >nul
+cls
+echo Ah Ah Ah, You Didn't Say The Magi
+ping localhost -n .15 >nul
+cls
+echo Ah Ah Ah, You Didn't Say The 
+
+Magic
+ping localhost -n .15 >nul
+cls
+echo Ah Ah Ah, You Didn't Say The 
+
+Magic W
+ping localhost -n .15 >nul
+cls
+echo Ah Ah Ah, You Didn't Say The 
+
+Magic Wo
+ping localhost -n .15 >nul
+cls
+echo Ah Ah Ah, You Didn't Say The 
+
+Magic Wor
+ping localhost -n .15 >nul
+cls
+echo Ah Ah Ah, You Didn't Say The 
+
+Magic Word
+ping localhost -n .15 >nul
+cls
+echo Ah Ah Ah, You Didn't Say The 
+
+Magic Word.
+ping localhost -n .15 >nul
+cls
+echo Ah Ah Ah, You Didn't Say The 
+
+Magic Word..
+ping localhost -n .15 >nul
+cls
+echo Ah Ah Ah, You Didn't Say The 
+
+Magic Word...
+ping localhost -n 5 >nul
+cls
+echo Ah Ah Ah, You Didn't Say The 
+
+Magic Word...
+ping localhost -n 5 >nul
+cls
+echo Ah Ah Ah, You Didn't Say The 
+
+Magic Word...
+ping localhost -n 5 >nul
+cls
+echo Ah Ah Ah, You Didn't Say The 
+
+Magic Word...
+ping localhost -n 5 >nul
+cls
+echo Ah Ah Ah, You Didn't Say The 
+
+Magic Word...
+ping localhost -n 5 >nul
+cls
+echo "Next Time, Just Ask Me For The 
+
+Magic Word"
